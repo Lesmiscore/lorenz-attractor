@@ -1,9 +1,7 @@
-set xrange [-2:2]
-set yrange [-2:2]
 set pm3d
 
 set terminal svg
 set output 'test.svg'
 
-splot "plot.txt" using 1:2:3 with dots
+splot "plot.txt" using 1:2:3 with lines
 
