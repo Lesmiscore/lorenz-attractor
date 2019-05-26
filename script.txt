@@ -2,7 +2,7 @@ set xrange [-2:2]
 set yrange [-2:2]
 set pm3d
 
-set terminal png
-set output 'test.png'
+set terminal svg
+set output 'test.svg'
 
 splot "plot.txt" with lines
