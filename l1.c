@@ -18,7 +18,7 @@
  /* lorenz(double t,double X[],double dXdt[]) */
 #define N 3 /* 状態変数の次元 */
 #define h 0.01 /* ルンゲクッタステップ */
-#define T 1000000 /* ルンゲクッタの計算回数 */
+#define T 10000 /* ルンゲクッタの計算回数 */
 
 main()
 {
