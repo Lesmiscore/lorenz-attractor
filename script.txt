@@ -5,4 +5,5 @@ set pm3d
 set terminal svg
 set output 'test.svg'
 
-splot "plot.txt" with lines
+splot "plot.txt" using 1:2:3 with dots
+
