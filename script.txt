@@ -1,7 +1,7 @@
 set pm3d
 
-set terminal svg
-set output 'test.svg'
+set terminal png
+set output 'test.png'
 
 splot "plot.txt" using 1:2:3 with lines
 
