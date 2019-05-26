@@ -5,4 +5,4 @@ set pm3d
 set terminal png
 set output 'test.png'
 
-splot "plot.txt" using 1:2:3 with lines
+splot "plot.txt" with lines
