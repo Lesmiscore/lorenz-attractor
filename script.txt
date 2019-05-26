@@ -1,3 +1,6 @@
+set xrange [-100:100]
+set yrange [-100:100]
+
 set pm3d
 
 set terminal png
