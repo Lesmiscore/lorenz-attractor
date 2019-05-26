@@ -1,5 +1,5 @@
-set xrange [-100:100]
-set yrange [-100:100]
+set xrange [-25:25]
+set yrange [-20:20]
 
 set pm3d
 
